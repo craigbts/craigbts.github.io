@@ -98,7 +98,7 @@ nav {
   text-decoration: none;
 }
 
-#navLinks a:hover {
+#navLinks a:hover{
   color: white;
   text-decoration: none;
 }
@@ -204,13 +204,13 @@ nav {
   vertical-align: middle;
 }
 
-.portfolioCard:hover img {
+.portfolioCard:hover img, .portfolioCard:active img {
   opacity: 0.1;
   transform: scale(1.1);
   transition: transform 400ms ease;
 }
 
-.portfolioCard:hover .cardBack {
+.portfolioCard:hover .cardBack, .portfolioCard:active .cardBack {
   opacity: 1;
   transition: opacity 500ms ease;
 }
