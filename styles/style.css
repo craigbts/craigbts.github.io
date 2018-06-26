@@ -204,13 +204,35 @@ nav {
   vertical-align: middle;
 }
 
-.portfolioCard:hover img, .portfolioCard:active img, .portfolioCard:focus img{
+.portfolioCard:hover img{
   opacity: 0.1;
   transform: scale(1.1);
   transition: transform 400ms ease;
 }
 
-.portfolioCard:hover .cardBack, .portfolioCard:active .cardBack, .portfolioCard:focus .cardBack {
+.portfolioCard:active img{
+  opacity: 0.1;
+  transform: scale(1.1);
+  transition: transform 400ms ease;
+}
+
+.portfolioCard:focus img{
+  opacity: 0.1;
+  transform: scale(1.1);
+  transition: transform 400ms ease;
+}
+
+.portfolioCard:hover .cardBack{
+  opacity: 1;
+  transition: opacity 500ms ease;
+}
+
+ .portfolioCard:active .cardBack {
+  opacity: 1;
+  transition: opacity 500ms ease;
+}
+
+.portfolioCard:focus .cardBack {
   opacity: 1;
   transition: opacity 500ms ease;
 }
