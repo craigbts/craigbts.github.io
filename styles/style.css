@@ -227,6 +227,11 @@ nav {
   transition: opacity 500ms ease;
 }
 
+.clicked{
+  opacity: 1;
+  transition: opacity 500ms ease;
+}
+
  .portfolioCard:active .cardBack {
   opacity: 1;
   transition: opacity 500ms ease;
