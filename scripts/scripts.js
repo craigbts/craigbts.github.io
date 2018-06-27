@@ -31,13 +31,13 @@ function myFunction() {
   }
 };
 
-
-var mobile = window.matchMedia("(max-width: 1170px)");
-var portCard = document.getElementByClassName('portfolioCard');
-portCard.addEventListener('click', ()=>{
-  this.ClassName.toggle("clicked");
-
-});
+// 
+// var mobile = window.matchMedia("(max-width: 1170px)");
+// var portCard = document.getElementByClassName('portfolioCard');
+// portCard.addEventListener('click', ()=>{
+//   this.ClassName.toggle("clicked");
+//
+// });
 
 //
 // function query(mobile) {
