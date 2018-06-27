@@ -31,7 +31,7 @@ function myFunction() {
   }
 };
 
-// 
+//
 // var mobile = window.matchMedia("(max-width: 1170px)");
 // var portCard = document.getElementByClassName('portfolioCard');
 // portCard.addEventListener('click', ()=>{
@@ -46,4 +46,4 @@ function myFunction() {
 //   } else {
 //     x.style.display = "none";
 //   }
-}
+// }
