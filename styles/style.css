@@ -163,7 +163,7 @@ nav {
   margin: auto;
   border-radius: 50%;
   position: relative;
-  margin-top: 10vh;
+  margin-top: 8vh;
 }
 
 #introText {
@@ -539,6 +539,9 @@ footer {
   }
   #navLinks li:active {
     color: #394856;
+  }
+  #profilePic {
+    margin-top: 10vh;
   }
   .portfolioCard {
     display: inline-block;
