@@ -1,250 +1,33 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <meta charset="utf-8" />
-  <title>Craig Beatts</title>
-  <link type="text/css" rel="stylesheet" href="styles/normalize.css" />
-  <link type="text/css" rel="stylesheet" href="styles/style.css" />
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Rubik:400,500,700" rel="stylesheet">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-  <link rel="shortcut icon" href="img/favicon.ico">
-  <meta name="description" content="Web design and front-end developer portfolio site for Craig Beatts.">
-  <meta name="keywords" content="Web design, front end developer, freelance, Oakland, San Francisco, Bay Area">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- Global Site Tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107260720-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Craig Beatts</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+        crossorigin="anonymous">
 
-    function gtag() {
-      dataLayer.push(arguments)
-    };
-    gtag('js', new Date());
 
-    gtag('config', 'UA-107260720-1');
-  </script>
 </head>
 
 <body>
-  <nav>
-    <div id="mainNav">
-      <h2 id="logo"><a href="#home">
-        <i class="fas fa-code"></i>
-        <!-- <i class="material-icons">
-code
-</i> -->
-        Craig Beatts</a></h2>
-      <div id="btn" onclick="myFunction()">
-        <i class="material-icons" id="navBtn">
-          expand_more
-      </i></div>
-    </div>
-    <ul id="navLinks">
-      <a href="#home">
-        <li onclick="myFunction()">Home</li>
-      </a>
-      <a href="#projects">
-        <li onclick="myFunction()">Projects</li>
-      </a>
-      <a href="#contact">
-        <li onclick="myFunction()">Contact</li>
-      </a>
-    </ul>
-  </nav>
-  <main>
-    <div id="home" class="pages">
-      <img src="img/craigbeatts.jpg" alt="Craig Beatts Profile picture" id="profilePic" />
-      <div id="introText">
-        <p>
-          Hi, my name is Craig.
-        </p>
-        <p>
-          I'm a Web Designer and Front-End Developer.
-        </p>
-      </div>
-      <i class="material-icons" id="homeArrow">arrow_downward</i>
-    </div>
-    <div id="projects" class="pages">
-      <div class="portfolioCard">
-        <img src="img/dropNav.jpg" alt="Mobile Drop Down Navigation">
-        <div class="cardBack">
-          <div class="cardText">
-            Mobile Drop Down Navigation
-          </div>
-          <a href="pages/dropNav.html">
-            <div class="cardBtn">
-              <p>
-                See more
-              </p>
-              <i class="material-icons">
-arrow_forward
-</i>
-            </div>
-          </a>
-        </div>
-      </div>
-      <div class="portfolioCard">
-        <img src="img/rps.jpg" alt="Rock Paper Scissors image">
-        <div class="cardBack">
-          <div class="cardText">
-            Rock, Paper, Scissors Game
-          </div>
-          <a href="pages/rockPaperScissors.html">
-            <div class="cardBtn">
-              <p>
-                See more
-              </p>
-              <i class="material-icons">
-arrow_forward
-</i>
-            </div>
-          </a>
-        </div>
-      </div>
-      <div class="portfolioCard">
-        <img src="img/wiki.jpg" alt="Wikipedia Search image">
-        <div class="cardBack">
-          <div class="cardText">
-            Wikipedia API Search
-          </div>
-          <a href="pages/wiki.html">
-            <div class="cardBtn">
-              <p>
-                See more
-              </p>
-              <i class="material-icons">
-arrow_forward
-</i>
-            </div>
-          </a>
-        </div>
-      </div>
-      <div class="portfolioCard">
-        <img src="img/todo.jpg" alt="to do list app">
-        <div class="cardBack">
-          <div class="cardText">
-            To Do List App
-          </div>
-          <a href="pages/todo.html">
-            <div class="cardBtn">
-              <p>
-                See more
-              </p>
-              <i class="material-icons">
-arrow_forward
-</i>
-            </div>
-          </a>
-        </div>
-      </div>
-      <div class="portfolioCard">
-        <img src="img/quote.jpg" alt="Inspiring Quote Generator">
-        <div class="cardBack">
-          <div class="cardText">
-            Inspiring Quote Generator
-          </div>
-          <a href="pages/quote.html">
-            <div class="cardBtn">
-              <p>
-                See more
-              </p>
-              <i class="material-icons">
-arrow_forward
-</i>
-            </div>
-          </a>
-        </div>
-      </div>
-      <div class="portfolioCard">
-        <img src="img/boombox.jpg" alt="CSS Animated 80's Boombox">
-        <div class="cardBack">
-          <div class="cardText">
-            CSS Animated 80's Boombox
-          </div>
-          <a href="pages/boombox.html">
-            <div class="cardBtn">
-              <p>
-                See more
-              </p>
-              <i class="material-icons">
-arrow_forward
-</i>
-            </div>
-          </a>
-        </div>
-      </div>
-      <div class="portfolioCard">
-        <img src="img/record.jpg" alt="CSS Animated Record Player">
-        <div class="cardBack">
-          <div class="cardText">
-            CSS Animated Record Player
-          </div>
-          <a href="pages/record.html">
-            <div class="cardBtn">
-              <p>
-                See more
-              </p>
-              <i class="material-icons">
-arrow_forward
-</i>
-            </div>
-          </a>
-        </div>
-      </div>
-    </div>
-    <div id="contact" class="pages">
-      <div>
-        <h3>
-          Fancy chatting? Here are some great ways to get in touch!
-        </h3>
-        <div id="contactIcons">
-          <a href="mailto:craig@craigbeatts.com">
-            <div class="socialBtn">
-              <p>
-                E-mail
-              </p>
-            </div>
-          </a>
-          <a href="https://codepen.io/cbdeveloped/" target="blank_">
-            <div class="socialBtn">
-              <p>
-                CodePen
-              </p>
-            </div>
-          </a>
-          <a href="https://github.com/craigbts" target="blank_">
-            <div class="socialBtn">
-              <p>
-                GitHub
-              </p>
-            </div>
-          </a>
-          <a href="https://www.upwork.com/o/profiles/users/_~015533933c73ec64ac/" target="blank_">
-            <div class="socialBtn">
-              <p>
-                Upwork
-              </p>
-            </div>
-          </a>
-          <a href="https://www.linkedin.com/in/craig-beatts" target="blank_">
-            <div class="socialBtn">
-              <p>
-                LinkedIn
-              </p>
-            </div>
-          </a>
-        </div>
-      </div>
-    </div>
-    <footer>
-      <p>
-        &copy2018 Craig Beatts
-      </p>
-    </footer>
-  </main>
-  <script src="scripts/scripts.js"></script>
+    <section id="main">
+        <ul>
+            <li><a href="https://codepen.io/cbdeveloped/" target="_blank">
+                    <i class="fab fa-codepen"></i>
+                </a></li>
+            <li><a href="https://github.com/craigbts" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a></li>
+            <li><a href="https://www.linkedin.com/in/craig-beatts" target="_blank">
+                    <i class="fab fa-linkedin-in"></i>
+                </a></li>
+        </ul>
+    </section>
 </body>
 
 </html>
